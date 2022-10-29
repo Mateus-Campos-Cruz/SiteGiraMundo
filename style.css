@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    width: 100%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+    
+}
+
+/*TOPO*/
+
+.topo{    
+    height: 90px;
+    box-shadow: 0.5px 0.5px 10px gray;
+   
+   
+}
+
+.logo{
+    width: 80px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 30px;    
+    float: left;
+}
+
+.menu{
+    margin-top: 35px;
+    margin-left: 30px;
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    color: #3aae6d;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.menu a:hover{
+    color: #98eebe;
+}
+
+.topo .login{
+    background-color: #3ba067;
+    padding: 15px;
+    width: 150px;
+    margin-left: 120px;  
+    margin-top: 15px;  
+    border-radius: 30px;
+    float: left;    
+}
+
+
+
+.login a{     
+    
+    color: white;    
+    
+}
+
+
+/*CORPO*/
+
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #bcd8c4;
+}
+
+.corpo{    
+    height: 1500px;     
+    background-size: 10px;
+    border: 1px solid white; 
+    background-image: url('logoTerra.png');    
+}
+
+.painel-noticias{
+    margin-left: 100px;
+    height: 600px;
+}
+
+.mini-noticias{
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.imagens-noticias{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #bcd8c4;  
+    
+}
+
+.painel-noticias2{
+    margin-left: 100px;    
+}
+
+p{
+    width: 310px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 0.5px 0.5px 10px gray;
+}
+
+.vejaMais{
+    margin: 0;
+    padding: 0;    
+    color: blue;
+    font-size: 20px;
+    background-color: white;
+    text-decoration: underline;
+    box-shadow: 0.5px 0.5px 10px gray;
+}
+
+.clear{
+    clear: both;
+}
+
+
